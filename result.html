@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Student Results</title>
-  <link rel="stylesheet" href="csss/result.css">
+	<title>Student Results</title>
+	<link rel="stylesheet" href="csss/result.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="images/logo.jpeg" alt="University Logo">
-      <h1>SEVA SADAN</h1>
-    </header>
-    
-    <div class="student-info">
-      <img class="student-photo" src="images/logo.jpeg" alt="Student Photo">
-      <h3>Student Name</h3>
-      <p>PRN: 123456</p>
-      <p>Examination Seat Number: 789</p>
-      <p>Month and Year of Examination: April 2023</p>
-    </div>
-    
-    <div class="result-table">
-      <div class="row header">
-        <div class="col">Course Code</div>
-        <div class="col">Course Title</div>
-        <div class="col">Course Credits</div>
-        <div class="col">Theory Grade</div>
-        <div class="col">Practical Grade</div>
-        <div class="col">Overall Grade</div>
-        <div class="col">Credits Earned</div>
-        <div class="col">Grade Points</div>
-      </div>
-      
-      <div class="row">
-        <div class="col">CSE101</div>
-        <div class="col">Introduction to Computer Science</div>
-        <div class="col">3</div>
-        <div class="col">A</div>
-        <div class="col">B</div>
-        <div class="col">B+</div>
-        <div class="col">3</div>
-        <div class="col">9</div>
-      </div>
-      
-      <div class="row">
-        <div class="col">CSE102</div>
-        <div class="col">Programming Fundamentals</div>
-        <div class="col">4</div>
-        <div class="col">B+</div>
-        <div class="col">A-</div>
-        <div class="col">A-</div>
-        <div class="col">4</div>
-        <div class="col">15</div>
-      </div>
-      
-      <div class="row">
-        <div class="col">CSE103</div>
-        <div class="col">Data Structures and Algorithms</div>
-        <div class="col">4</div>
-        <div class="col">A-</div>
-        <div class="col">A</div>
-        <div class="col">A</div>
-        <div class="col">4</div>
-        <div class="col">16</div>
-      </div>
-      
-      <div class="row">
-        <div class="col">CSE104</div>
-        <div class="col">Web Development</div>
-        <div class="col">3</div>
-        <div class="col">B</div>
-        <div class="col">A</div>
-        <div class="col">A-</div>
-        <div class="col">3</div>
-        <div class="col">10</div>
-      </div>
-      
-      <div class="row">
-        <div class="col total" colspan="2">Total Credits Earned: 14</div>
-        <div class="col total" colspan="2">SGPI: 3.54
+	<div class="container">
+		<header>
+			<img src="images/logo.jpeg" alt="University Logo">
+			<h1>SEVA SADAN</h1>
+		</header>
+
+		<div class="student-info">
+			<img class="student-photo" src="images/logo.jpeg" alt="Student Photo">
+			<h3>Student Name</h3>
+			<p>PRN: 123456</p>
+			<p>Examination Seat Number: 789</p>
+			<p>Month and Year of Examination: April 2023</p>
+		</div>
+
+		<table class="result-table">
+			<thead>
+				<tr>
+					<th>Course Code</th>
+					<th>Course Title</th>
+					<th>Credits</th>
+					<th>Theory Grade</th>
+					<th>Practical Grade</th>
+					<th>Overall Grade</th>
+					<th>Credits Earned</th>
+					<th>Grade Points</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>CSE101</td>
+					<td>Introduction to Computer Science</td>
+					<td>3</td>
+					<td>A</td>
+					<td>B</td>
+					<td>B+</td>
+					<td>3</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<td>CSE102</td>
+					<td>Programming Fundamentals</td>
+					<td>4</td>
+					<td>B+</td>
+					<td>A-</td>
+					<td>A-</td>
+					<td>4</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>CSE103</td>
+					<td>Data Structures and Algorithms</td>
+					<td>4</td>
+					<td>A-</td>
+					<td>A</td>
+					<td>A</td>
+					<td>4</td>
+					<td>16</td>
+				</tr>
+				<tr>
+					<td>CSE104</td>
+					<td>Web Development</td>
+					<td>3</td>
+					<td>B</td>
+					<td>A</td>
+					<td>A-</td>
+					<td>3</td>
+					<td>10</td>
+				</tr>
+				<tr class="total">
+					<td colspan="2">Total Credits Earned: 14</td>
+					<td colspan="2">SGPI: 3.54</td>
+					<td colspan="4"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,90 +1,61 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-  }
-  
-  header img {
-    height: 100px;
-  }
-  
-  header h1 {
-    margin-left: 20px;
-  }
-  
-  .student-info {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .student-photo {
-    height: 100px;
-    margin-right: 20px;
-  }
-  
-  .result-table {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .row {
-    display: flex;
-    border: 1px solid #ccc;
-  }
-  
-  .row.header {
-    font-weight: bold;
-    background-color: #eee;
-  }
-  
-  .col {
-    padding: 10px;
-    flex-basis: 0;
-    flex-grow: 1;
-  }
-  
-  .col.total {
-    font-weight: bold;
-    text-align: right;
-  }
-  
-  .col:first-child {
-    flex-basis: 10%;
-  }
-  
-  .col:nth-child(2) {
-    flex-basis: 40%;
-  }
-  
-  .col:nth-child(3) {
-    flex-basis: 10%;
-    text-align: center;
-  }
-  
-  .col:nth-child(4),
-  .col:nth-child(5),
-  .col:nth-child(6),
-  .col:nth-child(7),
-  .col:nth-child(8) {
-    flex-basis: 10%;
-    text-align: center;
-  }
-  
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+header img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.student-photo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.result-table {
+  margin-bottom: 20px;
+}
