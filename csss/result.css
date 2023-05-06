@@ -59,3 +59,10 @@ header img {
 .result-table {
   margin-bottom: 20px;
 }
+
+#t1 {
+  border-collapse: collapse;
+}
+#c1, #c2, #c3, #c4, #c5, #col1, #col2, #col3{
+  border: none;
+}
